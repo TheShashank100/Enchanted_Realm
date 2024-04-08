@@ -1,0 +1,205 @@
+.signup-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.signup-heading {
+  text-align: center;
+  color: #333;
+}
+
+.signup-form {
+  margin-top: 10px;
+}
+
+.signup-label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.signup-input {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.signup-button:hover {
+  background-color: #45a049;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.login-heading {
+  text-align: center;
+  color: #333;
+}
+
+.login-form {
+  margin-top: 10px;
+}
+
+.login-label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.login-input {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.login-button:hover {
+  background-color: #45a049;
+}
+
+.forgot-password {
+  margin-top: 10px;
+  text-align: center;
+}
+.calcColor {
+  color: white;
+}
+.eye {
+  width: 30px;
+  height: 30px;
+  background-color: #4a90e2;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.eye.left {
+  left: 35%;
+}
+
+.eye.right {
+  right: 35%;
+}
+
+.profile-editor {
+  text-align: center;
+}
+
+.color-input {
+  margin-bottom: 10px;
+}
+
+.profile-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+
+.eye-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.eye {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-color: #4a90e2;
+  border-radius: 50%;
+}
+
+.eye:first-child {
+  left: 25%;
+}
+
+.eye:last-child {
+  right: 25%;
+}
+
+.mouth {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 20px;
+  background-color: #ff0000;
+  border-radius: 50px 50px 0 0;
+}
+
+.mouth.smile {
+  border-radius: 0 0 50px 50px;
+}
+
+.mouth.neutral {
+  border-radius: 50px;
+}
+
+.eye.round {
+  border-radius: 50%;
+}
+
+.eye.almond {
+  border-radius: 50% / 60% 60% 40% 40%;
+}
+
+.eye.cat {
+  border-radius: 50% / 70% 70% 30% 30%;
+}
+.eye-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eye.left {
+  margin-right: auto; /* Move left eye to the left */
+}
+
+.eye.right {
+  margin-left: auto; /* Move right eye to the right */
+}

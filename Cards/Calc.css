@@ -1,0 +1,285 @@
+.b1 {
+  text-align: center;
+  background-color: #008080;
+  color: white;
+  border-radius: 25px;
+  width: 400px;
+  height: 200px;
+  font-size: 28px;
+  font-family: cursive;
+  text-decoration: none;
+}
+.text-decor {
+  text-decoration: none;
+}
+.zoom {
+  transition: transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.zoom:hover {
+  transform: scale(0.97);
+}
+.zoom1 {
+  transition: transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.zoom1:hover {
+  transform: scale(1.19);
+}
+#color {
+  color: white;
+  background-color: #333;
+  border-radius: 30px;
+  padding: 20px;
+  width: 80%;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.calcColor {
+  color: white;
+}
+
+.boxSize {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #008080;
+  color: white;
+  font-size: 10px;
+  font-family: cursive;
+}
+input,
+.button {
+  margin: 10px;
+  padding: 5px;
+}
+.button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#calc-color {
+  font-size: 24px;
+  color: #4caf50;
+  font-weight: bold;
+}
+#img {
+  height: 150px;
+}
+.hereosSpaced {
+  display: flex;
+  justify-content: space-around;
+}
+#img1 {
+  height: 500px;
+}
+.clicker-title {
+  color: white;
+}
+
+#score {
+  font-size: 50px;
+  color: white;
+}
+
+#status-bar {
+  width: 25%;
+  height: 20px;
+  border: 2px solid #ccc;
+}
+#status-bar-progress {
+  width: 100%;
+  height: 100%;
+  background-color: green;
+}
+#decrease-button {
+  margin-top: 10px;
+  background-color: transparent;
+  border-color: black;
+}
+span {
+  display: flex;
+  justify-content: center;
+}
+
+#img {
+  margin-top: 10px;
+  background-color: black;
+  border-color: black;
+}
+button[disabled] {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  cursor: not-allowed;
+}
+#NotFound {
+  color: white;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  border-radius: 500px;
+}
+#titleIq {
+  color: white;
+  text-decoration: none;
+}
+#ToDoTitle {
+  color: white;
+  background-color: firebrick;
+  width: 50%;
+  border-radius: 25px;
+}
+#IqButton {
+  color: white;
+  background-color: #008080;
+  text-align: center;
+  border-radius: 25px;
+  font-size: 26px;
+  width: 300px;
+  font-family: cursive;
+  text-decoration: none;
+}
+#IQh3 {
+  color: white;
+  background-color: #008080;
+  text-align: center;
+  border-radius: 25px;
+  width: 250px;
+  height: 30px;
+  font-family: cursive;
+  text-decoration: none;
+}
+#I {
+  color: white;
+}
+.MainBox {
+  background-color: #008080;
+  border-radius: 25px;
+}
+.Iqbutton {
+  color: white;
+  background-color: #002;
+  width: 400px;
+  border-radius: 25px;
+}
+.IQcenter {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.iq-test-container {
+  color: white;
+  /* background-color: #333; */
+  padding: 20px;
+}
+
+.iq-test-heading {
+  text-align: center;
+}
+
+.question-container {
+  margin-bottom: 20px;
+}
+
+.question-number {
+  font-weight: bold;
+}
+
+.question-text {
+  margin-top: 10px;
+}
+
+.answer-options {
+  margin-top: 10px;
+}
+
+.submit-button {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #d32f2f;
+}
+#IQ10Link {
+  color: #008080;
+  text-decoration: none;
+}
+/* Assuming this is the CSS file associated with the Profile component */
+
+.profile-container {
+  background-color: white;
+  /* color: black; */
+}
+/* Assuming this is the CSS file associated with the Profile component */
+
+.profile-container {
+  background-color: white;
+  /* color: black; */
+}
+.profile-icon {
+  background-color: white;
+}
+/* Assuming this is the CSS file associated with the Profile component */
+
+.profile-container {
+  background-color: white;
+  color: white;
+}
+/* Assuming this is the Calc.css file associated with the Profile component */
+
+.profile-preview {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.eye {
+  width: 30px;
+  height: 30px;
+  background-color: #4a90e2;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.eye.left {
+  left: 30%;
+}
+
+.eye.right {
+  right: 30%;
+}
+.title {
+  font-size: 72px;
+  color: #ff5252;
+  margin-bottom: 16px;
+}
+
+.message {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 32px;
+}
